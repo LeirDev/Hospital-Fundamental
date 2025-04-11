@@ -12,11 +12,11 @@ O objetivo é criar uma estrutura que registre médicos, pacientes, consultas, c
 
 Analise a seguinte descrição e extraia dela os requisitos para o banco de dados em um diagrama, fluxograma ou afins:
 
-> O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
+ O hospital necessita de um sistema para sua área clínica que ajude a controlar consultas realizadas. Os médicos podem ser generalistas, especialistas ou residentes e têm seus dados pessoais cadastrados em planilhas digitais. Cada médico pode ter uma ou mais especialidades, que podem ser pediatria, clínica geral, gastroenterologia e dermatologia. Alguns registros antigos ainda estão em formulário de papel, mas será necessário incluir esses dados no novo sistema.
 
-> Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e convênio. Para cada convênio, são registrados nome, CNPJ e tempo de carência.
+ Os pacientes também precisam de cadastro, contendo dados pessoais (nome, data de nascimento, endereço, telefone e e-mail), documentos (CPF e RG) e convênio. Para cada convênio, são registrados nome, CNPJ e tempo de carência.
 
-> As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.
+ As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.
 
 > Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
 
@@ -40,17 +40,17 @@ Analise a seguinte descrição e extraia dela os requisitos para o banco de dado
 
 Considere a seguinte descrição:
 
-> No hospital, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos.
+ No hospital, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos.
 
-> Para cada internação, são anotadas a data de entrada, a data prevista de alta e a data efetiva de alta, além da descrição textual dos procedimentos a serem realizados.
+ Para cada internação, são anotadas a data de entrada, a data prevista de alta e a data efetiva de alta, além da descrição textual dos procedimentos a serem realizados.
 
-> As internações precisam ser vinculadas a quartos, com a numeração e o tipo.
+ As internações precisam ser vinculadas a quartos, com a numeração e o tipo.
 
-> Cada tipo de quarto tem sua descrição e o seu valor diário (a princípio, o hospital trabalha com apartamentos, quartos duplos e enfermaria).
+ Cada tipo de quarto tem sua descrição e o seu valor diário (a princípio, o hospital trabalha com apartamentos, quartos duplos e enfermaria).
 
-> Também é necessário controlar quais profissionais de enfermaria estarão responsáveis por acompanhar o paciente durante sua internação. Para cada enfermeiro(a), é necessário nome, CPF e registro no conselho de enfermagem (COREN).
+ Também é necessário controlar quais profissionais de enfermaria estarão responsáveis por acompanhar o paciente durante sua internação. Para cada enfermeiro(a), é necessário nome, CPF e registro no conselho de enfermagem (COREN).
 
-> A internação, obviamente, é vinculada a um paciente – que pode se internar mais de uma vez no hospital – e a um único médico responsável.
+ A internação, obviamente, é vinculada a um paciente – que pode se internar mais de uma vez no hospital – e a um único médico responsável.
 
 📌 **Tarefa:** Modele os dados de internação conforme a descrição.
 
@@ -62,22 +62,22 @@ Crie scripts de povoamento dos documentos desenvolvidos na atividade anterior.
 
 📌 **Atividades obrigatórias:**
 
-- [ ] Inclua ao menos 12 médicos de diferentes especialidades.
-- [ ] Ao menos sete especialidades (ex.: Pediatria, Clínica Geral, Gastroenterologia, Dermatologia).
-- [ ] Inclua ao menos 15 pacientes.
-- [ ] Registre 20 consultas de diferentes pacientes e diferentes médicos.
-  - [ ] Alguns pacientes devem realizar mais de uma consulta.
-  - [ ] As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022.
-  - [ ] Pelo menos 10 consultas devem ter receituário com dois ou mais medicamentos.
-- [ ] Relacione as internações com IDs de médicos e pacientes.
-- [ ] Registre ao menos 7 internações.
-  - [ ] Pelo menos 2 pacientes devem ter se internado mais de uma vez.
-  - [ ] Pelo menos 3 quartos devem ser cadastrados.
-  - [ ] As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.
-- [ ] Inclua os tipos de quarto: apartamento, quarto duplo e enfermaria, com valores diferentes.
-- [ ] Inclua dados de 10 profissionais de enfermaria.
-- [ ] Associe cada internação a pelo menos 2 enfermeiros.
-- [ ] Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
+- [x] Inclua ao menos 12 médicos de diferentes especialidades.
+- [x] Ao menos sete especialidades (ex.: Pediatria, Clínica Geral, Gastroenterologia, Dermatologia).
+- [x] Inclua ao menos 15 pacientes.
+- [x] Registre 20 consultas de diferentes pacientes e diferentes médicos.
+  - [x] Alguns pacientes devem realizar mais de uma consulta.
+  - [x] As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+  - [x] Pelo menos 10 consultas devem ter receituário com dois ou mais medicamentos.
+- [x] Relacione as internações com IDs de médicos e pacientes.
+- [x] Registre ao menos 7 internações.
+  - [x] Pelo menos 2 pacientes devem ter se internado mais de uma vez.
+  - [x] Pelo menos 3 quartos devem ser cadastrados.
+  - [x] As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+- [x] Inclua os tipos de quarto: apartamento, quarto duplo e enfermaria, com valores diferentes.
+- [x] Inclua dados de 10 profissionais de enfermaria.
+- [x] Associe cada internação a pelo menos 2 enfermeiros.
+- [x] Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
 
 ---
 
