@@ -62,22 +62,22 @@ Crie scripts de povoamento dos documentos desenvolvidos na atividade anterior.
 
 📌 **Atividades obrigatórias:**
 
-- [x] Inclua ao menos 12 médicos de diferentes especialidades.
-- [x] Ao menos sete especialidades (ex.: Pediatria, Clínica Geral, Gastroenterologia, Dermatologia).
-- [x] Inclua ao menos 15 pacientes.
-- [x] Registre 20 consultas de diferentes pacientes e diferentes médicos.
-  - [x] Alguns pacientes devem realizar mais de uma consulta.
-  - [x] As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022.
-  - [x] Pelo menos 10 consultas devem ter receituário com dois ou mais medicamentos.
-- [x] Relacione as internações com IDs de médicos e pacientes.
-- [x] Registre ao menos 7 internações.
-  - [x] Pelo menos 2 pacientes devem ter se internado mais de uma vez.
-  - [x] Pelo menos 3 quartos devem ser cadastrados.
-  - [x] As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.
-- [x] Inclua os tipos de quarto: apartamento, quarto duplo e enfermaria, com valores diferentes.
-- [x] Inclua dados de 10 profissionais de enfermaria.
-- [x] Associe cada internação a pelo menos 2 enfermeiros.
-- [x] Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
+- ✅ Inclua ao menos 12 médicos de diferentes especialidades.
+- ✅ Ao menos sete especialidades (ex.: Pediatria, Clínica Geral, Gastroenterologia, Dermatologia).
+- ✅ Inclua ao menos 15 pacientes.
+- ✅ Registre 20 consultas de diferentes pacientes e diferentes médicos.
+  - ✅ Alguns pacientes devem realizar mais de uma consulta.
+  - ✅ As consultas devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+  - ✅ Pelo menos 10 consultas devem ter receituário com dois ou mais medicamentos.
+- ✅ Relacione as internações com IDs de médicos e pacientes.
+- ✅ Registre ao menos 7 internações.
+  - ✅ Pelo menos 2 pacientes devem ter se internado mais de uma vez.
+  - ✅ Pelo menos 3 quartos devem ser cadastrados.
+  - ✅ As internações devem ter ocorrido entre 01/01/2015 e 01/01/2022.
+- ✅ Inclua os tipos de quarto: apartamento, quarto duplo e enfermaria, com valores diferentes.
+- ✅ Inclua dados de 10 profissionais de enfermaria.
+- ✅ Associe cada internação a pelo menos 2 enfermeiros.
+- ✅ Os dados de tipo de quarto, convênio e especialidade devem ser povoados no início do sistema.
 
 ---
 
