@@ -18,19 +18,19 @@ Analise a seguinte descrição e extraia dela os requisitos para o banco de dado
 
  As consultas também têm sido registradas em planilhas, com data e hora de realização, médico responsável, paciente, valor da consulta ou nome do convênio, com o número da carteira. Também é necessário indicar na consulta qual a especialidade buscada pelo paciente.
 
-> Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
+ Deseja-se ainda informatizar a receita do médico, de maneira que, no encerramento da consulta, ele possa registrar os medicamentos receitados, a quantidade e as instruções de uso. A partir disso, espera-se que o sistema imprima um relatório da receita ao paciente ou permita sua visualização via internet.
 
-> **Exemplo de Requisitos do Banco de Dados:**
->
-> A coleção de médicos, por exemplo, teria suas características definidas como segue:
->
-> - `_id` (ObjectId)
-> - `nome` (String)
-> - `data_nascimento` (Date)
-> - `especialidades` (Array de Strings) - Ex.: ["Pediatria", "Clínica Geral"]
-> - `tipo` (String) - Ex.: "Generalista", "Especialista", "Residente"
-> - `contato`: { `telefone` (String), `email` (String) }
-> - `documentos`: { `CPF` (String), `RG` (String) }
+ **Exemplo de Requisitos do Banco de Dados:**
+
+ A coleção de médicos, por exemplo, teria suas características definidas como segue:
+
+ - `_id` (ObjectId)
+ - `nome` (String)
+ - `data_nascimento` (Date)
+ - `especialidades` (Array de Strings) - Ex.: ["Pediatria", "Clínica Geral"]
+ - `tipo` (String) - Ex.: "Generalista", "Especialista", "Residente"
+ - `contato`: { `telefone` (String), `email` (String) }
+ - `documentos`: { `CPF` (String), `RG` (String) }
 
 📌 **Tarefa:** Crie o modelo do banco de dados com base na descrição acima.
 
