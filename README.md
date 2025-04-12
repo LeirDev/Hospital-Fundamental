@@ -94,7 +94,7 @@ Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas
      
      ```
 - [ ] Crie um script para atualizar ao menos dois médicos como **inativos** e os demais como **em atividade**.
-    ```json
+    ```
     
     db.medicos.updateOne({
     {nome: "Fernanda Costa Santos"},
@@ -117,7 +117,7 @@ Crie um script e nele inclua **consultas que retornem** os seguintes dados (resp
 
 R: Valor médio das consultas conveniadas é R$ 325.95 e sem convênio é 349.20
 
-```json
+```
 db.consultas.aggregate([
   {
     $match: {
@@ -137,7 +137,7 @@ db.consultas.aggregate([
 
 ### 2. Todos os dados das internações que tiveram data de alta maior que a data prevista para a alta.
 
-```json
+```
 db.internacoes.find({
   $expr: { $gt: ["$data_efetiva_alta", "$data_prevista_alta"] }
 });
