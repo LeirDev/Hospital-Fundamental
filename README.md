@@ -87,13 +87,13 @@ Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas
 
 📌 **Tarefas:**
 
-- [ ] Crie um script que adicione uma coluna `em_atividade` para os médicos, indicando se ele ainda está atuando no hospital ou não.
+- ✅ Crie um script que adicione uma coluna `em_atividade` para os médicos, indicando se ele ainda está atuando no hospital ou não.
      ```
      
      db.medicos.updateMany({}, { $set: { em_atividade: true } })
      
      ```
-- [ ] Crie um script para atualizar ao menos dois médicos como **inativos** e os demais como **em atividade**.
+- ✅ Crie um script para atualizar ao menos dois médicos como **inativos** e os demais como **em atividade**.
     ```
     
     db.medicos.updateOne({
