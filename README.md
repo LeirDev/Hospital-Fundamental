@@ -145,9 +145,9 @@ db.internacoes.find({
 
 ### 3. Receituário completo da primeira consulta registrada com receituário associado.
 
-```json
+```
 {
-
+db.consultas.find({ receita: { $exists: true } }).sort({ data_consulta: 1 }).limit(1);
 }
 ```
 
