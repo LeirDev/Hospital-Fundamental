@@ -88,7 +88,24 @@ Pensando no banco que já foi criado para o Projeto do Hospital, realize algumas
 📌 **Tarefas:**
 
 - [ ] Crie um script que adicione uma coluna `em_atividade` para os médicos, indicando se ele ainda está atuando no hospital ou não.
+     ```json
+     
+     db.medicos.updateMany({}, { $set: { em_atividade: false } })
+     
+     ```
 - [ ] Crie um script para atualizar ao menos dois médicos como **inativos** e os demais como **em atividade**.
+    ```json
+    
+    db.medicos.updateOne({
+    {nome: "Fernanda Costa Santos"},
+    {$set: {em_atividade: false}}
+    })
+    db.medicos.updateOne({
+    {nome: "Fernanda Costa Santos"},
+    {$set: {em_atividade: false}}
+    })
+    
+    ```
 
 ---
 
@@ -98,18 +115,32 @@ Crie um script e nele inclua **consultas que retornem** os seguintes dados (resp
 
 ### 1. Todos os dados e o valor médio das consultas do ano de 2020 e das que foram feitas sob convênio.
 
-```json
-{
+R: Valor médio das consultas conveniadas é R$ 325.95 e sem convênio é 349.20
 
-}
+```json
+db.consultas.aggregate([
+  {
+    $match: {
+      data_consulta: { $gte: "2020-01-01", $lte: "2020-12-31" }
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      valorMedio: { $avg: "$valor_consulta" }
+    }
+  }
+])
+
+
 ```
 
 ### 2. Todos os dados das internações que tiveram data de alta maior que a data prevista para a alta.
 
 ```json
-{
-
-}
+db.internacoes.find({
+  $expr: { $gt: ["$data_efetiva_alta", "$data_prevista_alta"] }
+});
 ```
 
 ### 3. Receituário completo da primeira consulta registrada com receituário associado.
