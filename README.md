@@ -171,7 +171,19 @@ db.consultas.find({ receita: { $exists: true } }).sort({ data_consulta: 1 }).lim
 
 ```json
 {
-
+db.internacoes.aggregate([
+  {
+    $match: { tipo_de_quarto: "apartamento" } 
+  },
+  {
+    $project: {
+      data_internacao: "$data_entrada", 
+      procedimento: 1, 
+      numero_quarto: "$numero_quarto", 
+      _id: 0 
+    }
+  }
+]);
 }
 ```
 
@@ -201,9 +213,11 @@ db.consultas.find({ receita: { $exists: true } }).sort({ data_consulta: 1 }).lim
 
 ### 10. Todos os médicos que tenham "Gabriel" no nome.
 
-```json
+```
 {
-
+db.medcios.find({
+nome: /Gabriel/
+})
 }
 ```
 
