@@ -292,7 +292,33 @@ db.consultas.aggregate([
 
 ```
 {
-
+db.consultas.aggregate([
+  {
+    $group: {
+      _id: "$crm", // Agrupando por CRM do médico responsável
+      numero_consultas: { $sum: 1 } 
+    }
+  },
+  {
+    $lookup: {
+      from: "medicos", // Nome da coleção de médicos
+      localField: "_id", // Campo agrupado (CRM)
+      foreignField: "documentos.crm", 
+      as: "detalhes_medico"
+    }
+  },
+  { 
+    $unwind: { path: "$detalhes_medico", preserveNullAndEmptyArrays: true } 
+  },
+  {
+    $project: {
+      _id: 0, // Remove o ID do agrupamento
+      nome_medico: "$detalhes_medico.nome", 
+      crm: "$_id", // CRM do médico
+      numero_consultas: 1 
+    }
+  }
+])
 }
 ```
 
