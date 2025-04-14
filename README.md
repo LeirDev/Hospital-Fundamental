@@ -153,17 +153,73 @@ db.consultas.find({ receita: { $exists: true } }).sort({ data_consulta: 1 }).lim
 
 ### 4. Todos os dados da consulta de maior valor e também da de menor valor (ambas as consultas não foram realizadas sob convênio).
 
+R: Maior valor:
 ```
 {
-
+db.consultas.aggregate([
+  { $match: { conveniada: false } }, 
+  { $sort: { valor_consulta: -1 } }, 
+  { $limit: 1 }                      
+])
 }
+```
+
+R: Menor valor
+```
+db.consultas.aggregate([
+  { $match: { conveniada: false } }, 
+  { $sort: { valor_consulta: 1 } }, 
+  { $limit: 1 }                      
+])
 ```
 
 ### 5. Todos os dados das internações em seus respectivos quartos, calculando o total da internação a partir do valor de diária do quarto e o número de dias entre a entrada e a alta.
 
 ```
 {
-
+db.internacoes.aggregate([
+  {
+    $addFields: {
+      data_entrada_convertida: { $dateFromString: { dateString: "$data_entrada" } },
+      data_alta_convertida: { $dateFromString: { dateString: "$data_efetiva_alta" } }
+    }
+  },
+  {
+    $addFields: {
+      diasInternacao: {
+        $dateDiff: {
+          startDate: "$data_entrada_convertida",
+          endDate: "$data_alta_convertida",
+          unit: "day"
+        }
+      }
+    }
+  },
+  {
+    $lookup: {
+      from: "quartos",
+      localField: "id_quarto",
+      foreignField: "_id_quarto",
+      as: "detalhes_quarto"
+    }
+  },
+  { $unwind: "$detalhes_quarto" },
+  {
+    $addFields: {
+      total_internacao: { $multiply: ["$detalhes_quarto.valor_diaria", "$diasInternacao"] }
+    }
+  },
+  {
+    $project: {
+      _id_internacao: 1,
+      id_quarto: 1,
+      diasInternacao: 1,
+      total_internacao: 1,
+      "detalhes_quarto.numero_quarto": 1,
+      "detalhes_quarto.tipo_quarto": 1
+    }
+  }
+])
 }
 ```
 
@@ -191,7 +247,36 @@ db.internacoes.aggregate([
 
 ```
 {
-
+db.consultas.aggregate([
+  {
+    $addFields: {
+      idade_no_dia: {
+        $dateDiff: {
+          startDate: { $dateFromString: { dateString: "$data_de_nascimento" } },
+          endDate: { $dateFromString: { dateString: "$data_consulta" } },
+          unit: "year"
+        }
+      }
+    }
+  },
+  {
+    $match: {
+      idade_no_dia: { $lt: 18 }, 
+      especialidade: { $ne: "pediatria" } 
+    }
+  },
+  {
+    $sort: { data_consulta: 1 } 
+  },
+  {
+    $project: {
+      _id: 0,
+      nome_paciente: 1,
+      data_consulta: 1,
+      especialidade: 1
+    }
+  }
+])
 }
 ```
 
@@ -225,7 +310,32 @@ nome: /Gabriel/
 
 ```
 {
-
+db.internacoes.aggregate([
+  // Desnormalizar o array de enfermeiras_responsaveis
+  { $unwind: "$enfermeiras_responsaveis" },
+  {
+    $group: {
+      _id: "$enfermeiras_responsaveis",
+      totalInternacoes: { $sum: 1 }
+    }
+  },
+  { $match: { totalInternacoes: { $gt: 1 } } },
+  {
+    $lookup: {
+      from: "enfermeiros",
+      localField: "_id",
+      foreignField: "documentos.coren",
+      as: "detalhesEnfermeiro"
+    }
+  },
+  {
+    $project: {
+      coren: "$_id",
+      nome: { $arrayElemAt: ["$detalhesEnfermeiro.nome", 0] },
+      totalInternacoes: 1
+    }
+  }
+])
 }
 ```
 
