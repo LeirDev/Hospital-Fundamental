@@ -1,0 +1,20 @@
+[
+  {
+    "_id_quarto": "q_020666d6",
+    "numero_quarto": 100,
+    "tipo_quarto": "apartamento",
+    "valor_diaria": 500
+  },
+  {
+    "_id_quarto": "q_6a689684",
+    "numero_quarto": 101,
+    "tipo_quarto": "quarto duplo",
+    "valor_diaria": 300
+  },
+  {
+    "_id_quarto": "q_54c519e6",
+    "numero_quarto": 102,
+    "tipo_quarto": "enfermaria",
+    "valor_diaria": 150
+  }
+]

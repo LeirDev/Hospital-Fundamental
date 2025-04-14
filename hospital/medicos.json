@@ -1,0 +1,684 @@
+[
+  {
+    "nome": "João Silva Pereira",
+    "data_de_nascimento": "1970-01-15",
+    "especialidade": [
+      "Clínica Geral",
+      "Cardiologia"
+    ],
+    "tipo": "Residente",
+    "documentos": {
+      "cpf": "00000000000",
+      "rg": "RG0000",
+      "crm": "CRM-000"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "CRM0456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999000",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico0@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "100",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": false, // Médico não atuou
+    "plantao": [
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Fernanda Costa Lima",
+    "data_de_nascimento": "1971-02-15",
+    "especialidade": [
+      "Gastroenterologia",
+      "Ortopedia"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "00000000010",
+      "rg": "RG1000",
+      "crm": "CRM-001"
+    },
+    "conveio": {
+      "nome": "Bem Viver Assistência",
+      "cnpj": "23.456.789/0001-01",
+      "tempo_carencia": "60 dias",
+      "numero_carteira": "CRM1456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999001",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico1@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "101",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Rafael Lima Santos",
+    "data_de_nascimento": "1972-03-15",
+    "especialidade": [
+      "Cardiologia",
+      "Neurologia"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "00000000020",
+      "rg": "RG2000",
+      "crm": "CRM-002"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "CRM2456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999002",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico2@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "102",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Camila Rocha Mendes",
+    "data_de_nascimento": "1973-04-15",
+    "especialidade": [
+      "Ortopedia",
+      "Gastroenterologia"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "00000000030",
+      "rg": "RG3000",
+      "crm": "CRM-003"
+    },
+    "conveio": {
+      "nome": "Vida Plena Saúde",
+      "cnpj": "12.345.678/0001-90",
+      "tempo_carencia": "90 dias",
+      "numero_carteira": "CRM3456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999003",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico3@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "103",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "domingo",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Lucas Oliveira Ribeiro",
+    "data_de_nascimento": "1974-05-15",
+    "especialidade": [
+      "Cardiologia",
+      "Ortopedia"
+    ],
+    "tipo": "Generalista",
+    "documentos": {
+      "cpf": "00000000040",
+      "rg": "RG4000",
+      "crm": "CRM-004"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "CRM4456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999004",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico4@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "104",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Mariana Teixeira Souza",
+    "data_de_nascimento": "1975-06-15",
+    "especialidade": [
+      "Pediatria",
+      "Neurologia"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "00000000050",
+      "rg": "RG5000",
+      "crm": "CRM-005"
+    },
+    "conveio": {
+      "nome": "Vida Plena Saúde",
+      "cnpj": "12.345.678/0001-90",
+      "tempo_carencia": "90 dias",
+      "numero_carteira": "CRM5456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999005",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico5@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "105",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "João Silva Almeida",
+    "data_de_nascimento": "1976-07-15",
+    "especialidade": [
+      "Gastroenterologia",
+      "Neurologia"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "00000000060",
+      "rg": "RG6000",
+      "crm": "CRM-006"
+    },
+    "conveio": {
+      "nome": "Plano Omega Saúde",
+      "cnpj": "67.890.123/0001-45",
+      "tempo_carencia": "100 dias",
+      "numero_carteira": "CRM6456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999006",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico6@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "106",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": false, // Médico não atuou
+    "plantao": [
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Fernanda Costa Santos",
+    "data_de_nascimento": "1977-08-15",
+    "especialidade": [
+      "Neurologia",
+      "Dermatologia"
+    ],
+    "tipo": "Generalista",
+    "documentos": {
+      "cpf": "00000000070",
+      "rg": "RG7000",
+      "crm": "CRM-007"
+    },
+    "conveio": {
+      "nome": "Plano Omega Saúde",
+      "cnpj": "67.890.123/0001-45",
+      "tempo_carencia": "100 dias",
+      "numero_carteira": "CRM7456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999007",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico7@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "107",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Rafael Lima Martins",
+    "data_de_nascimento": "1978-09-15",
+    "especialidade": [
+      "Cardiologia",
+      "Dermatologia"
+    ],
+    "tipo": "Generalista",
+    "documentos": {
+      "cpf": "00000000080",
+      "rg": "RG8000",
+      "crm": "CRM-008"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "CRM8456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999008",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico8@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "108",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Camila Rocha Oliveira",
+    "data_de_nascimento": "1979-01-15",
+    "especialidade": [
+      "Gastroenterologia",
+      "Dermatologia"
+    ],
+    "tipo": "Residente",
+    "documentos": {
+      "cpf": "00000000090",
+      "rg": "RG9000",
+      "crm": "CRM-009"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "CRM9456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999009",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico9@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "109",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Lucas Oliveira Mendes",
+    "data_de_nascimento": "1970-02-15",
+    "especialidade": [
+      "Pediatria",
+      "Clínica Geral"
+    ],
+    "tipo": "Especialista",
+    "documentos": {
+      "cpf": "000000000100",
+      "rg": "RG10000",
+      "crm": "CRM-010"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "CRM10456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999010",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico10@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "110",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Mariana Teixeira Ribeiro",
+    "data_de_nascimento": "1971-03-15",
+    "especialidade": [
+      "Neurologia",
+      "Gastroenterologia"
+    ],
+    "tipo": "Generalista",
+    "documentos": {
+      "cpf": "000000000110",
+      "rg": "RG11000",
+      "crm": "CRM-011"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "CRM11456789"
+    },
+    "ficha": {
+      "historico_familiar": "Nenhum",
+      "tipo_sanguinio": "O+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3199999011",
+      "tel_2": "",
+      "escritorio": "",
+      "email": "medico11@email.com"
+    },
+    "endereco": {
+      "cep": "30000000",
+      "logradouro": "Rua da Saúde",
+      "numero": "111",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "em_atividade": true,
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  }
+]

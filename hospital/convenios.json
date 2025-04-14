@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Vida Plena Saúde",
+    "cnpj": "12.345.678/0001-90",
+    "dias_carencia": 90
+  },
+  {
+    "nome": "Bem Viver Assistência",
+    "cnpj": "23.456.789/0001-01",
+    "dias_carencia": 60
+  },
+  {
+    "nome": "UniSaúde Brasil",
+    "cnpj": "34.567.890/0001-12",
+    "dias_carencia": 30
+  },
+  {
+    "nome": "Saúde Total",
+    "cnpj": "45.678.901/0001-23",
+    "dias_carencia": 45
+  },
+  {
+    "nome": "AlphaVida Planos",
+    "cnpj": "56.789.012/0001-34",
+    "dias_carencia": 75
+  },
+  {
+    "nome": "Plano Omega Saúde",
+    "cnpj": "67.890.123/0001-45",
+    "dias_carencia": 100
+  }
+]

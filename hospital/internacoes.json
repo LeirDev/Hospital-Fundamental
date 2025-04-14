@@ -1,0 +1,121 @@
+[
+  {
+    "_id_internacao": "int_31db5bd6",
+    "_id_paciente": "pac_77141e1c",
+    "medico_responsavel": "CRM-005",
+    "enfermeiras_responsaveis": [
+      "COREN006",
+      "COREN000"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_020666d6",
+    "tipo_de_quarto": "apartamento",
+    "data_entrada": "2018-10-07",
+    "data_prevista_alta": "2018-10-13",
+    "data_efetiva_alta": "2018-10-14"
+  },
+  {
+    "_id_internacao": "int_655a9862",
+    "_id_paciente": "pac_8fddfd16",
+    "medico_responsavel": "CRM-007",
+    "enfermeiras_responsaveis": [
+      "COREN006",
+      "COREN004"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_020666d6",
+    "tipo_de_quarto": "apartamento",
+    "data_entrada": "2020-08-07",
+    "data_prevista_alta": "2020-08-15",
+    "data_efetiva_alta": "2020-08-16"
+  },
+  {
+    "_id_internacao": "int_d5155d23",
+    "_id_paciente": "pac_bc4d9f1c",
+    "medico_responsavel": "CRM-008",
+    "enfermeiras_responsaveis": [
+      "COREN005",
+      "COREN008"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_6a689684",
+    "tipo_de_quarto": "quarto duplo",
+    "data_entrada": "2018-10-28",
+    "data_prevista_alta": "2018-11-01",
+    "data_efetiva_alta": "2018-10-31"
+  },
+  {
+    "_id_internacao": "int_9e8425bd",
+    "_id_paciente": "pac_df607604",
+    "medico_responsavel": "CRM-003",
+    "enfermeiras_responsaveis": [
+      "COREN000",
+      "COREN002"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_54c519e6",
+    "tipo_de_quarto": "enfermaria",
+    "data_entrada": "2021-06-11",
+    "data_prevista_alta": "2021-06-19",
+    "data_efetiva_alta": "2021-06-18"
+  },
+  {
+    "_id_internacao": "int_2211b824",
+    "_id_paciente": "pac_bc4d9f1c",
+    "medico_responsavel": "CRM-011",
+    "enfermeiras_responsaveis": [
+      "COREN003",
+      "COREN000"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_54c519e6",
+    "tipo_de_quarto": "enfermaria",
+    "data_entrada": "2015-06-05",
+    "data_prevista_alta": "2015-06-15",
+    "data_efetiva_alta": "2015-06-15"
+  },
+  {
+    "_id_internacao": "int_2335bf6c",
+    "_id_paciente": "pac_bc684321",
+    "medico_responsavel": "CRM-007",
+    "enfermeiras_responsaveis": [
+      "COREN008",
+      "COREN009"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_6a689684",
+    "tipo_de_quarto": "quarto duplo",
+    "data_entrada": "2019-04-10",
+    "data_prevista_alta": "2019-04-13",
+    "data_efetiva_alta": "2019-04-12"
+  },
+  {
+    "_id_internacao": "int_1b5004ef",
+    "_id_paciente": "pac_07144b17",
+    "medico_responsavel": "CRM-009",
+    "enfermeiras_responsaveis": [
+      "COREN007",
+      "COREN002"
+    ],
+    "procedimento": [
+      "Procedimento clínico"
+    ],
+    "id_quarto": "q_54c519e6",
+    "tipo_de_quarto": "enfermaria",
+    "data_entrada": "2018-11-02",
+    "data_prevista_alta": "2018-11-06",
+    "data_efetiva_alta": "2018-11-06"
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "_id_consulta": "cons_21718948",
+    "data_consulta": "2020-03-14",
+    "hora_consulta": "08:00",
+    "valor_consulta": 359.09,
+    "conveniada": false,
+    "crm": "CRM-010",
+    "_id_paciente": "pac_07144b17",
+    "numero_carteira": "PACI85678",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Loratadina",
+            "quantidade": "13 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Loratadina",
+            "quantidade": "12 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_11dd2691",
+    "data_consulta": "2021-01-18",
+    "hora_consulta": "14:00",
+    "valor_consulta": 348.94,
+    "conveniada": true,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_8fddfd16",
+    "numero_carteira": "PACI135678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "18 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "10 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_e4d115f6",
+    "data_consulta": "2017-06-16",
+    "hora_consulta": "12:00",
+    "valor_consulta": 214.6,
+    "conveniada": false,
+    "crm": "CRM-005",
+    "_id_paciente": "pac_5d1e5f29",
+    "numero_carteira": "PACI25678",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "7 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_5d32c9e4",
+    "data_consulta": "2021-11-05",
+    "hora_consulta": "12:00",
+    "valor_consulta": 231.47,
+    "conveniada": false,
+    "crm": "CRM-001",
+    "_id_paciente": "pac_5c0a2a27",
+    "numero_carteira": "PACI15678",
+    "especialidade_buscada": "Ortopedia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "12 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "11 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Paracetamol",
+            "quantidade": "20 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_f9505a9e",
+    "data_consulta": "2016-05-20",
+    "hora_consulta": "08:00",
+    "valor_consulta": 133.42,
+    "conveniada": true,
+    "crm": "CRM-010",
+    "_id_paciente": "pac_bc684321",
+    "numero_carteira": "PACI125678",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "18 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_3ba8d662",
+    "data_consulta": "2020-11-22",
+    "hora_consulta": "14:00",
+    "valor_consulta": 398.31,
+    "conveniada": false,
+    "crm": "CRM-004",
+    "_id_paciente": "pac_df607604",
+    "numero_carteira": "PACI115678",
+    "especialidade_buscada": "Ortopedia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "13 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_656eef93",
+    "data_consulta": "2015-07-16",
+    "hora_consulta": "08:00",
+    "valor_consulta": 327.96,
+    "conveniada": true,
+    "crm": "CRM-010",
+    "_id_paciente": "pac_bc4d9f1c",
+    "numero_carteira": "PACI95678",
+    "especialidade_buscada": "Clínica Geral",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "19 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_f0f1573f",
+    "data_consulta": "2015-06-13",
+    "hora_consulta": "14:00",
+    "valor_consulta": 280.55,
+    "conveniada": false,
+    "crm": "CRM-009",
+    "_id_paciente": "pac_10047beb",
+    "numero_carteira": "PACI65678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "11 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "17 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Paracetamol",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_07b4df42",
+    "data_consulta": "2019-06-28",
+    "hora_consulta": "14:00",
+    "valor_consulta": 144.62,
+    "conveniada": true,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_1b26b075",
+    "numero_carteira": "PACI05678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "5 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_adc6f596",
+    "data_consulta": "2020-09-19",
+    "hora_consulta": "08:00",
+    "valor_consulta": 449.84,
+    "conveniada": false,
+    "crm": "CRM-010",
+    "_id_paciente": "pac_07144b17",
+    "numero_carteira": "PACI85678",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "19 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Paracetamol",
+            "quantidade": "16 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "14 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_03a5c62e",
+    "data_consulta": "2015-11-21",
+    "hora_consulta": "12:00",
+    "valor_consulta": 485.19,
+    "conveniada": false,
+    "crm": "CRM-007",
+    "_id_paciente": "pac_df607604",
+    "numero_carteira": "PACI115678",
+    "especialidade_buscada": "Neurologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "5 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Amoxicilina",
+            "quantidade": "8 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_3f46ab64",
+    "data_consulta": "2020-02-06",
+    "hora_consulta": "14:00",
+    "valor_consulta": 125.84,
+    "conveniada": true,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_8fddfd16",
+    "numero_carteira": "PACI135678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "10 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Paracetamol",
+            "quantidade": "17 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "13 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_bc694a00",
+    "data_consulta": "2021-06-25",
+    "hora_consulta": "08:00",
+    "valor_consulta": 466.35,
+    "conveniada": true,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_df607604",
+    "numero_carteira": "PACI115678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "16 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "6 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_d484be04",
+    "data_consulta": "2020-03-22",
+    "hora_consulta": "14:00",
+    "valor_consulta": 400.27,
+    "conveniada": true,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_5c0a2a27",
+    "numero_carteira": "PACI15678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Loratadina",
+            "quantidade": "7 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_c7715f22",
+    "data_consulta": "2021-05-26",
+    "hora_consulta": "08:00",
+    "valor_consulta": 310.81,
+    "conveniada": true,
+    "crm": "CRM-001",
+    "_id_paciente": "pac_77141e1c",
+    "numero_carteira": "PACI145678",
+    "especialidade_buscada": "Gastroenterologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "10 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "13 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_7635f908",
+    "data_consulta": "2020-03-24",
+    "hora_consulta": "14:00",
+    "valor_consulta": 494.69,
+    "conveniada": false,
+    "crm": "CRM-003",
+    "_id_paciente": "pac_1b26b075",
+    "numero_carteira": "PACI05678",
+    "especialidade_buscada": "Ortopedia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "16 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_bc354707",
+    "data_consulta": "2018-11-02",
+    "hora_consulta": "08:00",
+    "valor_consulta": 301.86,
+    "conveniada": false,
+    "crm": "CRM-005",
+    "_id_paciente": "pac_bc4d9f1c",
+    "numero_carteira": "PACI95678",
+    "especialidade_buscada": "Neurologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "15 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "17 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Ibuprofeno",
+            "quantidade": "20 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_9fc19727",
+    "data_consulta": "2020-07-29",
+    "hora_consulta": "08:00",
+    "valor_consulta": 450.59,
+    "conveniada": true,
+    "crm": "CRM-005",
+    "_id_paciente": "pac_bc4d9f1c",
+    "numero_carteira": "PACI95678",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "9 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      },
+      {
+        "medicamento": [
+          {
+            "nome": "Dipirona",
+            "quantidade": "5 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_a1ff4cc8",
+    "data_consulta": "2020-05-03",
+    "hora_consulta": "08:00",
+    "valor_consulta": 327.13,
+    "conveniada": true,
+    "crm": "CRM-002",
+    "_id_paciente": "pac_33479a17",
+    "numero_carteira": "PACI105678",
+    "especialidade_buscada": "Neurologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Omeprazol",
+            "quantidade": "20 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_a8accc62",
+    "data_consulta": "2020-09-04",
+    "hora_consulta": "12:00",
+    "valor_consulta": 137.06,
+    "conveniada": false,
+    "crm": "CRM-006",
+    "_id_paciente": "pac_1b26b075",
+    "numero_carteira": "PACI05678",
+    "especialidade_buscada": "Neurologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Loratadina",
+            "quantidade": "11 comprimidos",
+            "descricao": "Tomar conforme orientação médica"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_abc12345",
+    "data_consulta": "2023-10-01",
+    "hora_consulta": "10:00",
+    "valor_consulta": 250.00,
+    "conveniada": true,
+    "crm": "CRM-002",
+    "_id_paciente": "pac_12345abc",
+    "numero_carteira": "123456",
+    "especialidade_buscada": "Cardiologia",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Atenolol",
+            "quantidade": "30 comprimidos",
+            "descricao": "Tomar 1 comprimido ao dia"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id_consulta": "cons_def67890",
+    "data_consulta": "2023-10-02",
+    "hora_consulta": "14:00",
+    "valor_consulta": 300.00,
+    "conveniada": false,
+    "crm": "CRM-005",
+    "_id_paciente": "pac_67890def",
+    "numero_carteira": "654321",
+    "especialidade_buscada": "Pediatria",
+    "receita": [
+      {
+        "medicamento": [
+          {
+            "nome": "Paracetamol",
+            "quantidade": "20 comprimidos",
+            "descricao": "Tomar 1 comprimido a cada 8 horas"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "nome": "Carlos Eduardo Silva",
+    "data_de_nascimento": "1980-05-20",
+    "especialidade": [
+      {
+        "nome": "Clínica Geral"
+      }
+    ],
+    "tipo": "Enfermeiro Chefe",
+    "documentos": {
+      "cpf": "987654320",
+      "rg": "ENF0123",
+      "coren": "COREN000"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "ENF0CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122000",
+      "tel_2": "",
+      "email": "enfermeiro0@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "20",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "16:00"
+      },
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "16:00"
+      }
+    ]
+  },
+  {
+    "nome": "Fernanda Alves Souza",
+    "data_de_nascimento": "1981-05-20",
+    "especialidade": [
+      {
+        "nome": "Ortopedia"
+      }
+    ],
+    "tipo": "Enfermeira Assistente",
+    "documentos": {
+      "cpf": "987654321",
+      "rg": "ENF1123",
+      "coren": "COREN001"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "ENF1CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122001",
+      "tel_2": "",
+      "email": "enfermeiro1@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "21",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Mariana Costa Lima",
+    "data_de_nascimento": "1982-05-20",
+    "especialidade": ["Pediatria"],
+    "tipo": "Enfermeira Residente",
+    "documentos": {
+      "cpf": "987654322",
+      "rg": "ENF2123",
+      "coren": "COREN002"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "ENF2CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122002",
+      "tel_2": "",
+      "email": "enfermeiro2@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "22",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      }
+    ]
+  },
+  {
+    "nome": "Gabriel Santos Oliveira",
+    "data_de_nascimento": "1983-05-20",
+    "especialidade": [
+      {
+        "nome": "Neurologia"
+      }
+    ],
+    "tipo": "Enfermeiro Chefe",
+    "documentos": {
+      "cpf": "987654323",
+      "rg": "ENF3123",
+      "coren": "COREN003"
+    },
+    "conveio": {
+      "nome": "Vida Plena Saúde",
+      "cnpj": "12.345.678/0001-90",
+      "tempo_carencia": "90 dias",
+      "numero_carteira": "ENF3CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122003",
+      "tel_2": "",
+      "email": "enfermeiro3@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "23",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "16:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "16:00"
+      }
+    ]
+  },
+  {
+    "nome": "Juliana Pereira Mendes",
+    "data_de_nascimento": "1984-05-20",
+    "especialidade": [
+      {
+        "nome": "Clínica Geral"
+      }
+    ],
+    "tipo": "Enfermeira Assistente",
+    "documentos": {
+      "cpf": "987654324",
+      "rg": "ENF4123",
+      "coren": "COREN004"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "ENF4CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122004",
+      "tel_2": "",
+      "email": "enfermeiro4@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "24",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "terça-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      }
+    ]
+  },
+  {
+    "nome": "Ana Clara Ribeiro",
+    "data_de_nascimento": "1985-05-20",
+    "especialidade": [
+      {
+        "nome": "Dermatologia"
+      }
+    ],
+    "tipo": "Enfermeira Residente",
+    "documentos": {
+      "cpf": "987654325",
+      "rg": "ENF5123",
+      "coren": "COREN005"
+    },
+    "conveio": {
+      "nome": "Vida Plena Saúde",
+      "cnpj": "12.345.678/0001-90",
+      "tempo_carencia": "90 dias",
+      "numero_carteira": "ENF5CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122005",
+      "tel_2": "",
+      "email": "enfermeiro5@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "25",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Marcos Vinícius Almeida",
+    "data_de_nascimento": "1986-05-20",
+    "especialidade": [
+      {
+        "nome": "Ortopedia"
+      }
+    ],
+    "tipo": "Enfermeiro Chefe",
+    "documentos": {
+      "cpf": "987654326",
+      "rg": "ENF6123",
+      "coren": "COREN006"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "ENF6CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122006",
+      "tel_2": "",
+      "email": "enfermeiro6@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "26",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      },
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Rafael Oliveira Santos",
+    "data_de_nascimento": "1987-05-20",
+    "especialidade": [
+      {
+        "nome": "Gastroenterologia"
+      }
+    ],
+    "tipo": "Enfermeiro Assistente",
+    "documentos": {
+      "cpf": "987654327",
+      "rg": "ENF7123",
+      "coren": "COREN007"
+    },
+    "conveio": {
+      "nome": "UniSaúde Brasil",
+      "cnpj": "34.567.890/0001-12",
+      "tempo_carencia": "30 dias",
+      "numero_carteira": "ENF7CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122007",
+      "tel_2": "",
+      "email": "enfermeiro7@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "27",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "terça-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      },
+      {
+        "dia": "quinta-feira",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  },
+  {
+    "nome": "Camila Almeida Rocha",
+    "data_de_nascimento": "1988-05-20",
+    "especialidade": [
+      {
+        "nome": "Neurologia"
+      }
+    ],
+    "tipo": "Enfermeira Residente",
+    "documentos": {
+      "cpf": "987654328",
+      "rg": "ENF8123",
+      "coren": "COREN008"
+    },
+    "conveio": {
+      "nome": "Bem Viver Assistência",
+      "cnpj": "23.456.789/0001-01",
+      "tempo_carencia": "60 dias",
+      "numero_carteira": "ENF8CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122008",
+      "tel_2": "",
+      "email": "enfermeiro8@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "28",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "segunda-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      },
+      {
+        "dia": "sexta-feira",
+        "inicio": "14:00",
+        "fim": "20:00"
+      }
+    ]
+  },
+  {
+    "nome": "Paulo Henrique Martins",
+    "data_de_nascimento": "1989-05-20",
+    "especialidade": [
+      {
+        "nome": "Clínica Geral"
+      }
+    ],
+    "tipo": "Enfermeiro Chefe",
+    "documentos": {
+      "cpf": "987654329",
+      "rg": "ENF9123",
+      "coren": "COREN009"
+    },
+    "conveio": {
+      "nome": "AlphaVida Planos",
+      "cnpj": "56.789.012/0001-34",
+      "tempo_carencia": "75 dias",
+      "numero_carteira": "ENF9CARTEIRA"
+    },
+    "ficha": {
+      "historico_familiar": "Hipertensão",
+      "tipo_sanguinio": "B+",
+      "alergias": "Nenhuma"
+    },
+    "contato": {
+      "tel_1": "3191122009",
+      "tel_2": "",
+      "email": "enfermeiro9@mail.com"
+    },
+    "endereco": {
+      "cep": "30110000",
+      "logradouro": "Rua do Cuidado",
+      "numero": "29",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    },
+    "plantao": [
+      {
+        "dia": "quarta-feira",
+        "inicio": "08:00",
+        "fim": "16:00"
+      },
+      {
+        "dia": "sábado",
+        "inicio": "08:00",
+        "fim": "14:00"
+      }
+    ]
+  }
+]
