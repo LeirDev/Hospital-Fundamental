@@ -34,7 +34,7 @@ Analise a seguinte descrição e extraia dela os requisitos para o banco de dado
 
 📌 **Tarefa:** Crie o modelo do banco de dados com base na descrição acima.
 
-![](mapa mental bd part 1.png)
+![](mapa_mental_bd_part_1.png)
 ---
 
 ## Parte 2 - Não era exatamente assim
