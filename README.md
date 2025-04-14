@@ -55,6 +55,7 @@ Considere a seguinte descrição:
 
 📌 **Tarefa:** Modele os dados de internação conforme a descrição.
 
+![](mapa_mental_db_part_2.png)
 ---
 
 ## Parte 3 - Jogando nas regras que você criou
@@ -285,7 +286,12 @@ db.consultas.aggregate([
 
 ```
 {
-
+db.internacoes.aggregate([
+  { $lookup: { from: "medicos", localField: "medico_responsavel", foreignField: "documentos.crm", as: "detalhes_medico" } },
+  { $unwind: "$detalhes_medico" },
+  { $match: { "detalhes_medico.especialidade": "gastroenterologia", tipo_de_quarto: "enfermaria" } },
+  { $project: { nome_paciente: 1, nome_medico: "$detalhes_medico.nome", data_internacao: "$data_entrada", procedimentos: 1 } }
+])
 }
 ```
 
@@ -327,7 +333,7 @@ db.consultas.aggregate([
 
 ```
 {
-db.medcios.find({
+db.medicos.find({
 nome: /Gabriel/
 })
 }
